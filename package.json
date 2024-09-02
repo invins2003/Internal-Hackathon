@@ -2,13 +2,16 @@
   "name": "registration-portal",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "",
   "author": "",
   "license": "ISC",
-  "description": "",
+  "scripts": {
+    "start": "node server.js",  // Command to start your backend server
+    "client": "react-scripts start",  // Command to start your React frontend
+    "build": "react-scripts build",  // Command to build your React frontend
+    "test": "react-scripts test",  // React test command
+    "eject": "react-scripts eject"  // React eject command
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.4.0",
@@ -20,4 +23,5 @@
     "nodemailer": "^6.9.14",
     "otp-generator": "^4.0.1"
   }
+ 
 }
